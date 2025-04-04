@@ -1,0 +1,11 @@
+### Create an incident event
+POST {{scheme}}{{host}}/events
+
+
+### retrigger specific event
+@eventId = 4043fbc6-362c-417a-9bd9-efc9655c1dd8
+POST {{scheme}}{{host}}/events/{{eventId}}
+
+
+### simulate another hour passed
+POST {{scheme}}{{host}}/time/hour

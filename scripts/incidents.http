@@ -1,0 +1,8 @@
+### Create incident
+POST {{scheme}}{{host}}/incidents
+Content-Type: application/json
+
+{
+  "title": "system down",
+  "criticality": "GTFO"
+}

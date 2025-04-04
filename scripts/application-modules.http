@@ -1,0 +1,6 @@
+### Users
+GET {{scheme}}{{host}}/users/123
+
+
+### Greetings
+GET {{scheme}}{{host}}/hello?id=123
